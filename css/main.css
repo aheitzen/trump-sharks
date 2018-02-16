@@ -1,3 +1,17 @@
+:root {
+	--primary-color: #f0f0f5;
+	--large-font: 180px;
+	--header-font: 'Six Caps', sans-serif;
+	--paragraph-font: 'Montserrat', sans-serif;
+}
+
 html, body {
-	background-color: pink;
+	background-color: var(--primary-color);
+}
+
+h1 {
+	font-family: 'Six Caps', sans-serif;
+	letter-spacing: 8px;
+	font-size: var(--large-font);
+	text-align: center;
 }
